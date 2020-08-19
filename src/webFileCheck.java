@@ -47,7 +47,7 @@ public class webFileCheck implements Runnable {
         this.cloudFolderFut = folderFut;
         this.logins = logins;
     }
-
+        //Copy constructor
     public webFileCheck(webFileCheck old){
         cloudFileFut = old.cloudFileFut;
         cloudFolderFut = old.cloudFolderFut;

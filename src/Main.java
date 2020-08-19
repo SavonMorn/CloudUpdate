@@ -4,6 +4,7 @@ import java.io.FileWriter;
 public class Main {
     public static void main(String[] args) {
         try{     
+        //Confirming the existence of a save data file, or creating one and passing it the main window when launched.
         File saveFile = new File(System.getProperty("user.home") + "\\AppData\\CloudUpdate_settings.txt");
         if(saveFile.createNewFile()){
             FileWriter writeFile = new FileWriter(saveFile);
